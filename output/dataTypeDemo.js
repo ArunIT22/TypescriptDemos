@@ -1,26 +1,26 @@
 //variables
 //string, number, boolean
-var empName = 'Kavin';
+let empName = 'Kavin';
 //empName = 50;
-var empId = 4000;
-var isAvilable = true;
+let empId = 4000;
+let isAvilable = true;
 //explicit types
-var prodId;
-var prodName;
-var isInStock;
-var price;
+let prodId;
+let prodName;
+let isInStock;
+let price;
 prodId = 1000;
 //prodId = "10001";
 prodName = "Tooth Brush";
 price = 5000.666;
 isInStock = true;
 console.log("Product Id :" + prodId);
-console.log("Product Id :".concat(prodId, "\tProduct Name :").concat(prodName));
+console.log(`Product Id :${prodId}\tProduct Name :${prodName}`);
 //Arrays
-var numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 console.log(numbers);
 //Explicit array
-var cities = [];
+let cities = [];
 cities[0] = "Mumbai";
 cities[1] = "Chennai";
 cities[3] = "Hyderabad";
@@ -31,11 +31,11 @@ cities.push("Trivandrum");
 cities.pop();
 //console.log(cities);
 cities[1] = "Jaipur";
-cities.forEach(function (x) {
+cities.forEach(x => {
     console.log(x);
 });
 //Objects
-var userDetails = { uid: 1001, name: 'Kavin', age: 50 };
+let userDetails = { uid: 1001, name: 'Kavin', age: 50 };
 //userDetails = 100;
 userDetails = { uid: 1002, name: 'Kayal', age: 20 };
 console.log("User Id " + userDetails.uid);
